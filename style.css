@@ -25,9 +25,51 @@
 .container {
   display: flex;
   gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
 }
 
-.container {
+.myname {
+  font-size: 30px;
+  flex-basis: 200px;
+  flex-shrink: 1;
+}
+
+.tag-line {
+  flex-basis: 400px;
+  flex-shrink: 1;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.content {
   display: flex;
   gap: 50px;
+}
+
+.item-1 {
+  flex-basis: 25%;
+  border-style: dashed;
+}
+.item-2 {
+  flex-basis: 25%;
+  border-style: dashed;
+}
+
+.item-3 {
+  flex-basis: 25%;
+  border-style: dashed;
+}
+
+.footer {
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
 }
