@@ -1,3 +1,10 @@
+body {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2rem 4rem #000 ;
+  background: white;
+}
+
 .nav-links {
   background-color: #333;
   overflow: hidden;
@@ -52,13 +59,28 @@
 .content {
   display: flex;
   gap: 50px;
+  margin: 30px;
 }
 
 
 .item-1 {
   flex-basis: 25%;
   border-style: dashed;
+  padding: 5px;
+  text-align: center;
 }
+
+.img2 {
+  border:solid 10px;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  width: 150px;
+}
+
+/* frame code from: https://codepen.io/chris22smith/pen/PbBwjp */
+
 .item-2 {
   flex-basis: 25%;
   border-style: dashed;
@@ -70,15 +92,19 @@
 }
 
 .footer {
-  justify-content: center;
   display: flex;
-  position: fixed;
+  justify-content: center;
+  align-items: center;
+  gap: 30%;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #333;
   color: white;
+  margin-bottom: 5px;
+}
 
-.item-3 {
-
+.email{
+  margin-top: 5px;
 }
